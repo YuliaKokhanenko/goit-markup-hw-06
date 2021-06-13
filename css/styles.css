@@ -973,13 +973,14 @@ margin-bottom: 10px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-icon{
     position: absolute;
     width: 18px;
     height: 18px;
     top: 50%;
     left: 15px;
-    transform: translatey(-50%);
+    transform: translateY(-50%);
     fill: currentColor;
     transition-property: fill;
     transition-duration: 250ms;
