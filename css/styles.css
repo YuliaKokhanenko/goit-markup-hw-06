@@ -1034,9 +1034,10 @@ border-color: var(--accent-color);
     width: 16px;
     height: 15px;
     border: 0.2px solid #FFFFFF;
+    cursor: pointer;
 }
 
-.modal-form-checkbox:checked + .modal-form-checkbox-policy{
+.modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
     color:greenyellow;
 }
 
