@@ -376,6 +376,7 @@
             </div>
         </div>
     </footer>
+    /*--------------------Модальное окно---------*/
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
         <button class="modal-btn" data-modal-close type="button">
@@ -385,7 +386,7 @@
             </svg>
         </button>
         <form action="#" method="GET" class="modal-form">
-            <p class="modal-form-text">Оставьте свои данные,мы вам перезвоним</p>
+            <p class="modal-form-text">Оставьте свои данные, мы вам перезвоним</p>
             <label for="name" class="modal-form-field"></label>
         <div class="input-modal">
         <input id="name" class="input-modal-text" type="text" name="user-name" required>
@@ -410,6 +411,20 @@
         <label for="comment" class="modal-form-field">Комментарий</label>
         <textarea id="comment" class="input-modal-textarea" name="user-comment" placeholder="Введите текст">
         </textarea>
+        <div class="agree-terms">
+            <input id="checkbox" class="terms-checkbox" type="checkbox" name="private" required>
+            <label for="checkbox">
+                <span class="modal-text">
+                    Соглашаюсь с рассылкой и принимаю 
+                    <a class="modal-link" href="#">
+                        Условия договора
+                    </a>
+                </span>
+            </label>
+            <div class="modal-button-send">
+                <button class="modal-btn-send" type="submit">Отправить</button>
+            </div>
+        </div>
 
         
 </form>
