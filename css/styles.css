@@ -1028,7 +1028,13 @@ border-color: var(--accent-color);
 .input-modal-text:focus + .modal-form-icon{
     fill: var(--accent-color);
 }
-
+.modal-form-checkbox-policy::before{
+    display: block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 0.2px solid #FFFFFF;
+}
 /*
 .input-modal-text:required:focus:valid{
     border-color: green;
