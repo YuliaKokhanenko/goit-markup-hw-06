@@ -1020,7 +1020,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .modal-form-checkbox{
     position: absolute;
     cursor: pointer;
-    clip: rect(1px 1px 1px 1px);
+   /* clip: rect(1px 1px 1px 1px);*/
     padding: 0;
     border: 0;
     height: 1px;
