@@ -384,6 +384,36 @@
                 </use>
             </svg>
         </button>
+        <form action="#" method="GET" class="modal-form">
+            <p class="modal-form-text">Оставьте свои данные,мы вам перезвоним</p>
+            <label for="name" class="modal-form-field"></label>
+        <div class="input-modal">
+        <input id="name" class="input-modal-text" type="text" name="user-name" required>
+        <svg class="modal-icon person">
+            <use href="./images/sprite.svg#icon-person-black-18dp"></use>
+        </svg>
+        </div>
+    <label for="tell" class="modal-form-field">Телефон</label>
+    <div class="input-modal">
+        <input id="tell" class="input-modal-text" type="tell" name="user-tell" required>
+        <svg class="modal-icon phone">
+            <use href="./images/sprite.svg#icon-phone-black-18dp"></use>
+        </svg>
+        </div>
+        <label for="email" class="modal-form-field">Почта</label>
+        <div class="input-modal">
+            <input id="email" class="input-modal-text" type=" email" name="user- email" required>
+            <svg class="modal-icon email">
+                <use href="./images/sprite.svg#icon-email-black-18dp"></use>
+            </svg>
+        </div>
+        <label for="comment" class="modal-form-field">Комментарий</label>
+        <textarea id="comment" class="input-modal-textarea" name="user-comment" placeholder="Введите текст">
+        </textarea>
+
+        
+</form>
+
         </div>
     </div>
     <script src="./js/modal.js"></script>
