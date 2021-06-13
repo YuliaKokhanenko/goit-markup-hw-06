@@ -291,8 +291,8 @@ body{
    
 .modal-btn:hover,
 .modal-btn:focus{
-   color:var(--text-decoration-color);
-   background: var(--accent-color);
+   color:var(--accent-color);
+   /*background: var(--accent-color);*/
 }
    
    /*-----------Description--------------------*/
