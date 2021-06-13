@@ -1007,6 +1007,10 @@ transition-property: border-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.input-modal-textarea:focus{
+    border-color:var(--accent-color);
+}
 .agree-terms{
     display: flex;
     flex-direction: row;
@@ -1020,6 +1024,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .input-modal-text:focus{
 border-color: var(--accent-color);
 }
+
 .input-modal-text:focus + .modal-form-icon{
-    background-color: var(--accent-color);
+    fill: var(--accent-color);
 }
