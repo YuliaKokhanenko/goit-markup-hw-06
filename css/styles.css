@@ -958,6 +958,7 @@ color:var(--secondary-color);
 position: relative;
 margin-bottom: 10px;
 }
+
 .input-modal-text{
     padding-top: 12px;
     padding-right: 12px;
@@ -975,7 +976,7 @@ margin-bottom: 10px;
 }
 
 .input-modal-text:focus{
-border-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .modal-form-icon{
