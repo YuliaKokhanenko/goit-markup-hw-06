@@ -937,7 +937,7 @@ letter-spacing: 0.01em;
 color:var(--secondary-color);
 }
 
-    .modal-form-text{
+.modal-form-text{
     font-family: inherit;
     font-weight: 700;
     font-size: 20px;
