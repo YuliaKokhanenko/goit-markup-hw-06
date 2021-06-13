@@ -1027,7 +1027,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 1px;
     overflow: hidden;
 }
-
+.modal-form-checkbox + .modal-form-checkbox-policy{
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
 .input-modal-text:focus{
 border-color: var(--accent-color);
 }
