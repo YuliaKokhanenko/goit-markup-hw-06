@@ -1018,7 +1018,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: row;
     margin-left: 12px;
     margin-bottom: 30px;
-    margin-top: 20px;
+   
 }
 
 .modal-form-checkbox{
@@ -1046,6 +1046,7 @@ border-color: var(--accent-color);
     color: var( --text-color);
 }
 .modal-form-checkbox-policy +.modal-form-checkbox-policy::before{
+    content: "";
     display: inline-block;
     width: 16px;
     height: 15px;
