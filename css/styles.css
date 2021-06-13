@@ -1029,13 +1029,23 @@ border-color: var(--accent-color);
 .input-modal-text:focus + .modal-form-icon{
     fill: var(--accent-color);
 }
-.modal-form-checkbox-policy::before{
-    display: block;
+.modal-form-checkbox-policy +.modal-form-checkbox-policy::before{
+    display: inline-block;
     content: "";
     width: 16px;
     height: 15px;
     border: 0.2px solid #FFFFFF;
-    
+    margin-right: 8px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    cursor: pointer;
+    transition-property: border-color, background-image, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
