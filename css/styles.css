@@ -1019,6 +1019,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox{
     position: absolute;
+    cursor: pointer;
 }
 
 .input-modal-text:focus{
@@ -1034,11 +1035,12 @@ border-color: var(--accent-color);
     width: 16px;
     height: 15px;
     border: 0.2px solid #FFFFFF;
-    cursor: pointer;
+    
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
     color:greenyellow;
+    background-image: url("../images/check.svg") ;
 }
 
 
