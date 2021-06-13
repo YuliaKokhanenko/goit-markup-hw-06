@@ -1020,6 +1020,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .modal-form-checkbox{
     position: absolute;
     cursor: pointer;
+    clip: rect(1px 1px 1px 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
 }
 
 .input-modal-text:focus{
@@ -1028,6 +1034,10 @@ border-color: var(--accent-color);
 
 .input-modal-text:focus + .modal-form-icon{
     fill: var(--accent-color);
+}
+
+.modal-form-checkbox-policy{
+    color: var( --text-color);
 }
 .modal-form-checkbox-policy +.modal-form-checkbox-policy::before{
     display: inline-block;
@@ -1053,7 +1063,37 @@ border-color: var(--accent-color);
     background-image: url("../images/check.svg") ;
 }
 
+.modal-form-checkbox-policy-link{
+    text-decoration-line: underline;
+    color: var(--accent-color);
+}
+.modal-btn-send{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+padding: 10px 56px;
+align-self: center;
+cursor: pointer;
+box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-color: transparent;
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.modal-btn-send:hover,
+.modal-btn-send:focus{
+    background-color:  #188CE8;
+}
 /*
 .input-modal-text:required:focus:valid{
     border-color: green;
