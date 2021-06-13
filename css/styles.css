@@ -1018,14 +1018,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 30px;
 }
 .modal-form-checkbox{
-    position: absolute;
     cursor: pointer;
-   /* clip: rect(1px 1px 1px 1px);*/
     padding: 0;
     border: 0;
-    height: 1px;
+   /* height: 1px;
     width: 1px;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 .modal-form-checkbox + .modal-form-checkbox-policy{
     display: inline-flex;
