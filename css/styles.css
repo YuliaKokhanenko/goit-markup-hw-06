@@ -924,3 +924,14 @@ transform: translateY(0%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 }
+
+    .modal-form-text{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--secondary-color);
+    margin-bottom: 12px;
+}
