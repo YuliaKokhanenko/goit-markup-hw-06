@@ -1119,11 +1119,11 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-color: red;
 }*/
 
-.footer-subscription{
+.footer-subscription-form{
     display: flex;
     margin-left: 93px;
 }
-}
+
 .footer-subscription-text{
 font-weight: 700;
 font-size: 14px;
