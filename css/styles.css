@@ -1118,6 +1118,12 @@ box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 .input-modal-text:required:focus:invalid{
     border-color: red;
 }*/
+
+.footer-subscription{
+    display: flex;
+    margin-left: 93px;
+}
+}
 .footer-subscription-text{
 font-weight: 700;
 font-size: 14px;
