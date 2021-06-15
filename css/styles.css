@@ -1063,7 +1063,7 @@ border-color: var(--accent-color);
     height: 15px;
     border: 2px solid #FFFFFF;
     margin-right: 8px;
-    flex-shrink: 0;
+   /* flex-shrink: 0;
     flex-grow: 0;
     border-radius: 2px;
     background-repeat: no-repeat;
@@ -1072,7 +1072,7 @@ border-color: var(--accent-color);
     cursor: pointer;
     transition-property: border-color, background-image, background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 
