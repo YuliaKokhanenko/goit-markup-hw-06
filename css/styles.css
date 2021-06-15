@@ -1052,9 +1052,9 @@ border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-/*.modal-form-checkbox-policy{
+.modal-form-checkbox-policy{
     color: var( --text-color);
-}*/
+}
 
 .modal-form-checkbox-policy::before{
     content: "";
