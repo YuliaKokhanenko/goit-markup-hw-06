@@ -1053,10 +1053,11 @@ border-color: var(--accent-color);
 }
 
 .modal-form-checkbox-policy{
+
     color: var( --text-color);
 }
-.modal-form-checkbox-policy + label::before{
-    content: '';
+.modal-form-checkbox-policy::before{
+    content: "";
     display: inline-block;
     width: 16px;
     height: 15px;
