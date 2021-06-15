@@ -1022,14 +1022,24 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox{
-    cursor: pointer;
+    /*cursor: pointer;
     padding: 0;
-    border: 0;
+    border: 0;*/
    /* height: 1px;
     width: 1px;
     overflow: hidden;*/
+
+
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
-.modal-form-checkbox + .modal-form-checkbox-policy{
+.modal-form-checkbox + label{
     display: inline-flex;
     align-items: center;
     user-select: none;
