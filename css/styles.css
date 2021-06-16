@@ -1084,7 +1084,7 @@ border-color: var(--accent-color);
 .modal-form-checkbox:checked + label:before {
     border-color: #0b76ef;
     background-color: #0b76ef;
-    background-image: url ("../images/Vector.svg");
+    background-image: url ("../images/check.svg");
     background-size: contain;
 }
 
