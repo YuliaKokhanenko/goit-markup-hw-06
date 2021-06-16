@@ -1084,7 +1084,7 @@ border-color: var(--accent-color);
 .modal-form-checkbox:checked + label:before {
     border-color: #0b76ef;
     background-color: #0b76ef;
-    background-image: url("./images/check.svg");
+    background-image: url("../images/check.svg");
     background-size: contain;
 }
 
@@ -1101,6 +1101,7 @@ border-color: var(--accent-color);
 .modal-form-checkbox-policy-link{
     text-decoration-line: underline;
     color: var(--accent-color);
+    padding-left: 8px;
 }
 
 /*********стили при наведении курсора на чекбокс-policy****/
