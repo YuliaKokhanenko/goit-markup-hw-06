@@ -1094,7 +1094,7 @@ border-color: var(--accent-color);
 
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
-    background-image: url("../images/check.svg");
+    background-image: url("../images/Vector.svg");
 }
 
 
