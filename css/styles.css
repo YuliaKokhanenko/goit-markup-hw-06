@@ -1080,6 +1080,7 @@ border-color: var(--accent-color);
 .modal-form-checkbox:focus:not(checked) + label:before{
 border-color: var(--accent-color);
 }
+
 .modal-form-checkbox:checked + label:before {
     border-color: #0b76ef;
     background-color: #0b76ef;
@@ -1090,9 +1091,13 @@ border-color: var(--accent-color);
 .modal-form-checkbox:disabled + label::before{
     background-color: #e9ecef;
 }
-/*.modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
+
+
+.modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
     background-image: url("../images/check.svg");
-}*/
+}
+
+
 .modal-form-checkbox-policy-link{
     text-decoration-line: underline;
     color: var(--accent-color);
