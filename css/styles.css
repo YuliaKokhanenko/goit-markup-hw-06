@@ -1088,14 +1088,14 @@ border-color: var(--accent-color);
     background-size: contain;
 }
 
-.modal-form-checkbox:disabled + label::before{
+.modal-form-checkbox:disabled + label:before{
     background-color: #e9ecef;
 }
 
 
-.modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
-    background-image: url("../images/Vector.svg");
-}
+/*.modal-form-checkbox:checked + .modal-form-checkbox-policy:before{
+    background-image: url("../images/check.svg");
+}*/
 
 
 .modal-form-checkbox-policy-link{
