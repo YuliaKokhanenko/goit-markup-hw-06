@@ -1038,6 +1038,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 1px !important;
     overflow: hidden;
 }
+
 .modal-form-checkbox + label{
     display: inline-flex;
     align-items: center;
@@ -1086,7 +1087,7 @@ border-color: var(--accent-color);
     background-size: contain;
 }
 
-.modal-form-checkbox:disabled + label:before{
+.modal-form-checkbox:disabled + label::before{
     background-color: #e9ecef;
 }
 /*.modal-form-checkbox:checked + .modal-form-checkbox-policy::before{
@@ -1097,7 +1098,26 @@ border-color: var(--accent-color);
     color: var(--accent-color);
 }
 
+/*********стили при наведении курсора на чекбокс-policy****/
+.modal-form-checkbox:not(:disabled):not(checked) + label:hover {
+    border-color: #b3d7ff;
+}
 
+/*****стили для активного состояния чекбокса (при нажатии на него )****/
+.modal-form-checkbox:not(:disabled):active + label::before{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/*********стили чекбокса, находящегося в фокусе и не находящегося в состоянии checked*/
+
+.modal-form-checkbox:focus:not(:checked) + label::before{
+    border-color: #80bdff;
+}
+
+/****стили чекбокса, находящегося в состоянии disabled*/
+.modal-form-checkbox:disabled + label::before {
+    background-color: #e9ecef;
+}
 
 .modal-btn-send{
 font-family: inherit;
