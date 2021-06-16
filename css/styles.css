@@ -1093,6 +1093,7 @@ border-color: var(--accent-color);
 }
 
 
+
 /*.modal-form-checkbox:checked + .modal-form-checkbox-policy:before{
     background-image: url("../images/check.svg");
 }*/
@@ -1103,6 +1104,7 @@ border-color: var(--accent-color);
     color: var(--accent-color);
     padding-left: 8px;
 }
+
 
 /*********стили при наведении курсора на чекбокс-policy****/
 /*.modal-form-checkbox:not(:disabled):not(checked) + label:hover {
@@ -1124,6 +1126,7 @@ border-color: var(--accent-color);
 /*.modal-form-checkbox:disabled + label::before {
     background-color: #e9ecef;
 }*/
+
 
 .modal-btn-send{
 font-family: inherit;
