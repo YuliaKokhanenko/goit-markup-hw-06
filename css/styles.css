@@ -1045,12 +1045,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     user-select: none;
 }
 
-/*.modal-form-checkbox+
+.modal-form-checkbox+
 .input-modal-text:focus{
 border-color: var(--accent-color);
-}*/
+}
 
-/*.input-modal-text:focus + .modal-form-icon{
+.input-modal-text:focus + .modal-form-icon{
 fill: var(--accent-color);
 }
 
