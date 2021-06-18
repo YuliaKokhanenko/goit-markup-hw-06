@@ -977,10 +977,12 @@ margin-bottom: 10px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-modal-text:focus{
-    border-color: red;
+.input-modal-text:hover{
+    border-color: var(--accent-color);
 
 }
+
+
 .modal-form-icon{
     position: absolute;
     width: 18px;
