@@ -994,7 +994,6 @@ margin-bottom: 10px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    /*background: #212121;*/
 }
 
 .input-modal-textarea{
@@ -1029,14 +1028,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox{
-    /*cursor: pointer;
-    padding: 0;
-    border: 0;*/
-   /* height: 1px;
-    width: 1px;
-    overflow: hidden;*/
-
-
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     padding: 0 !important;
