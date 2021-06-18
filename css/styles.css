@@ -1053,10 +1053,10 @@ border-color: var(--accent-color);
 fill: var(--accent-color);
 }
 
-/*.input-modal-text:hover,
+.input-modal-text:hover,
 .input-modal-text:focus{
 border-color: var(--accent-color);
-}*/
+}
 
 /*.modal-form-checkbox-policy{
     color: var( --text-color);
